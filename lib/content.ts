@@ -86,6 +86,8 @@ export const contact = {
   phone: "+54 9 2914 27-7089",
   email: "contacto@estudioroca.com.ar",
   hours: "Lunes a viernes de 9 a 19 hs",
+  /** Valor de la consulta, se muestra destacado en la seccion de contacto. */
+  consultationPrice: "$49.550",
 } as const;
 
 /** Link de Google Maps con la direccion del estudio (no requiere API key). */

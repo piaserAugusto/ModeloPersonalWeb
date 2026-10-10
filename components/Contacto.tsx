@@ -73,6 +73,15 @@ export default function Contacto() {
           </ul>
 
           <div className="flex flex-col justify-center gap-6 rounded-sm border border-line bg-ink/[0.02] p-8">
+            <div className="rounded-sm border border-brand/20 bg-white px-6 py-5 text-center">
+              <p className="text-xs font-medium tracking-[0.2em] text-ink-300 uppercase">
+                Valor de la consulta
+              </p>
+              <p className="mt-2 text-3xl font-bold text-brand">
+                {contact.consultationPrice}
+              </p>
+            </div>
+
             <div>
               <h3 className="text-xl font-semibold text-ink">
                 Escribime directo
