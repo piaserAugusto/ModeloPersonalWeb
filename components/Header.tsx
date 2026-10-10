@@ -84,7 +84,7 @@ export default function Header() {
       ref={headerRef}
       className="sticky top-0 z-50 border-b border-white/10 bg-brand"
     >
-      <div className="grid h-20 grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 sm:px-6">
+      <div className="grid h-20 grid-cols-2 items-center gap-4 px-4 sm:px-6 lg:grid-cols-[1fr_auto_1fr]">
         <a
           href="#inicio"
           onClick={closeMenu}
