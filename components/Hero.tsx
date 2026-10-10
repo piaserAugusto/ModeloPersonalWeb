@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import TypedName from "@/components/TypedName";
-import { brand } from "@/lib/content";
+import { brand, contact } from "@/lib/content";
 
 /**
  * Seccion #inicio. Video de fondo a pantalla completa con overlay oscuro para
@@ -50,6 +50,9 @@ export default function Hero() {
           <div className="mt-6 space-y-1 border-l border-white/20 pl-4">
             <p className="text-sm font-normal text-white/70">{brand.role}</p>
             <p className="text-sm font-normal text-white/70">{brand.matricula}</p>
+            <p className="text-sm font-semibold text-white">
+              Precio de la consulta: {contact.consultationPrice}
+            </p>
           </div>
 
           <p className="mt-8 max-w-xl text-lg font-semibold text-white sm:text-xl">
